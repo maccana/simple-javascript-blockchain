@@ -15,9 +15,7 @@ class Block {
             this.timestamp +
             JSON.stringify(this.data).toString()
         )
-
     }
-
 }
 
 class Blockchain {
