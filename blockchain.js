@@ -43,8 +43,8 @@ class Blockchain {
 
 const myBlockchain = new Blockchain();
 myBlockchain.addBlock(new Block(1, "4/12/2023", { msg: 'Send 3000 taytoCoin to Jube' }));
-myBlockchain.addBlock(new Block(1, "2/20/2023", { msg: 'hello Jube!' }));
-myBlockchain.addBlock(new Block(1, "2/20/2023", { msg: 'No taytoCoins left' }));
+myBlockchain.addBlock(new Block(2, "2/20/2022", { msg: 'hello Jube!' }));
+myBlockchain.addBlock(new Block(3, "6/10/2021", { msg: 'No taytoCoins left' }));
 
 const genBlock = myBlockchain.getFullBlockchain()
 const singleBlock = myBlockchain.getSingleBlock(1)['data']['msg']
